@@ -1,0 +1,17 @@
+#### create profile book
+POST localhost:8081/profile-book/get-a-book
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NjE2MzUsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3Mjg2NDgwMzUsImlzcyI6IkxpYnJhcnkifQ.CfOJJah5OPgolOIlCpWUsk66Zfxe_VVsyK1xN3BTseWwAfNb0AxxX63etVYM3_BWFqqLjI5LUG_wQAW3ZCmVuw
+
+{
+  "bookId": "6c8440c0-d0cf-4bf2-8f70-fe8cb8bf4421",
+  "profileId": "5761e47b-c730-43c7-ab17-b6f94f63d42a"
+}
+
+### returnBook
+POST localhost:8081/profile-book/return-book/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NjY0OTIsImVtYWlsIjoia29udGFrdDIwMDMwNTA2QGdtYWlsLmNvbSIsInJvbGUiOiJST0xFX1VTRVIiLCJleHAiOjE3Mjg2NTI4OTIsImlzcyI6IkxpYnJhcnkifQ.wkXVnJg9-dS2cpJy-Wq1jJVi-1Ewq-OHjOJO4yamZ_S1Uo75hWMZPmJ5FMnsPE-D9V95iwsZhKqMgNwkY8Oc4w
+
+
+### get profile booklist
+GET http://localhost:8081/profile-book/profile/5761e47b-c730-43c7-ab17-b6f94f63d42a

@@ -1,0 +1,3 @@
+### get all profiles
+GET localhost:8081/profile/get-all
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NjE2MzUsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3Mjg2NDgwMzUsImlzcyI6IkxpYnJhcnkifQ.CfOJJah5OPgolOIlCpWUsk66Zfxe_VVsyK1xN3BTseWwAfNb0AxxX63etVYM3_BWFqqLjI5LUG_wQAW3ZCmVuw

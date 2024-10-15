@@ -1,0 +1,13 @@
+#### create book
+POST localhost:8081/book/create
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NTkxMTAsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3Mjg2NDU1MTAsImlzcyI6IkxpYnJhcnkifQ.Y8a-Z1WIjkrwHp9-cChDkDA7kQqItYe481pttmH051CxGhf7T3E_TFxPANVcZZ59S95Lo_baxc5MSBrSAyLABA
+
+{
+  "title": "clean code",
+  "author": "Robert C.",
+  "publishYear": "2008"
+}
+
+### book list
+GET localhost:8081/book/get-all
