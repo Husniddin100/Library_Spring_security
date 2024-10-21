@@ -1,12 +1,12 @@
 #### create book
 POST localhost:8081/book/create
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NTkxMTAsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3Mjg2NDU1MTAsImlzcyI6IkxpYnJhcnkifQ.Y8a-Z1WIjkrwHp9-cChDkDA7kQqItYe481pttmH051CxGhf7T3E_TFxPANVcZZ59S95Lo_baxc5MSBrSAyLABA
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg5OTExMjgsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MjkwNzc1MjgsImlzcyI6IkxpYnJhcnkifQ.1wXUZ4cZJEHJbDTNxar0bELEjIqEpwebFCx-4efHRSRl_PPLfJ8VLXMWGVMd60V1-ytoNrVy242lxWjnQ4L2aA
 
 {
-  "title": "clean code",
-  "author": "Robert C.",
-  "publishYear": "2008"
+  "title": "test ",
+  "author": "tests C.",
+  "publishYear": "2002"
 }
 
 ### book list
